@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Posicionamento</title>
+  <style>
+    .container {
+      background-color: blueviolet;
+      color: #fff;
+      /*position: static;*/
+
+
+    }
+
+    .filho-relative {
+      background-color: red;
+      position: relative;
+      top: 10px;
+      bottom: 10px;
+      left: 20px;
+      right: 20px;
+      width: 120px;
+    }
+
+    .filho-absolute {
+      position: absolute;
+      background: red;
+      top: 50px;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    Texto1
+    <div class="filho-relative">
+      Texto2
+    </div>
+    <div class="filho-absolute">
+      texto3
+    </div>
+
+  </div>
+
+</body>
+
+</html>
